@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".LogIn">
+
+ <TextView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="20dp"
+     android:layout_marginRight="20dp"
+     android:gravity="center"
+     android:textSize="30sp"
+     android:text="Book Now"
+     android:fontFamily="@font/poppins_regular"
+     android:textColor="@color/orange"/>
+
+
+ <TextView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="33dp"
+     android:layout_marginTop="160dp"
+     android:layout_marginRight="20dp"
+     android:gravity="left"
+     android:textSize="15sp"
+     android:text="Passenger/s Information"
+     android:fontFamily="@font/poppins_regular"
+     android:textColor="@color/white"/>
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="200dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/card_baclground"
+      android:drawableLeft="@drawable/ic_action_name"
+      android:fontFamily="@font/poppins_regular"
+      android:hint="Origin"
+      android:inputType="text"
+      android:paddingLeft="25dp"
+      android:paddingRight="25dp"
+      android:textColor="@color/black" />
+
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/card_baclground"
+      android:drawableLeft="@drawable/user_icon"
+      android:fontFamily="@font/poppins_regular"
+      android:hint="Passenger Name"
+      android:inputType="text"
+      android:paddingLeft="25dp"
+      android:paddingRight="25dp"
+      android:textColor="@color/black" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/card_baclground"
+      android:drawableLeft="@drawable/age"
+      android:fontFamily="@font/poppins_regular"
+      android:hint="Age"
+      android:inputType="number"
+      android:paddingLeft="25dp"
+      android:paddingRight="25dp"
+      android:textColor="@color/black" />
+
+
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:text="Continue"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/button_background"
+      android:fontFamily="@font/poppins_regular"
+      android:textSize="20dp"
+      android:drawableTint="@color/white"/>
+
+
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:text="Cancel"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="30dp"
+      android:background="@drawable/button_background"
+      android:fontFamily="@font/poppins_regular"
+      android:textSize="20dp"
+      android:drawableTint="@color/white"/>
+
+
+ </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
